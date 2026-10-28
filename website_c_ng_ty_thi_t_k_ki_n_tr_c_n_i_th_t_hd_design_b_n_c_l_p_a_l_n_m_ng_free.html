@@ -1,0 +1,1702 @@
+<!DOCTYPE html>
+<html lang="vi" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HD DESIGN | Kiến Tạo Không Gian Sống Độc Bản & Tinh Tế</title>
+  <meta name="description" content="HD DESIGN Architecture & Interior - Đơn vị Tư vấn Thiết kế Kiến trúc và Thi công Nội thất trọn gói Biệt thự, Nhà phố, Penthouse cao cấp tại Hà Nội & toàn quốc." />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Google Fonts: Cormorant Garamond & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ivory: '#FAF8F5',
+            obsidian: '#0c0a09',
+            bronze: {
+              500: '#d97706',
+              600: '#b45309',
+              700: '#92400e'
+            }
+          },
+          fontFamily: {
+            serif: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+            sans: ['"Plus Jakarta Sans"', '-apple-system', 'BlinkMacSystemFont', 'sans-serif']
+          }
+        }
+      }
+    };
+  </script>
+
+  <style>
+    body {
+      background-color: #FAF8F5;
+      color: #0c0a09;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+    .font-serif-luxury {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+    }
+    /* Custom Range Slider */
+    input[type="range"] {
+      -webkit-appearance: none;
+      appearance: none;
+      background: #292524;
+      height: 6px;
+      border-radius: 999px;
+      outline: none;
+    }
+    input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: #d97706;
+      border: 2px solid #fff;
+      cursor: pointer;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+      transition: transform 0.15s ease;
+    }
+    input[type="range"]::-webkit-slider-thumb:hover {
+      transform: scale(1.15);
+      background: #f59e0b;
+    }
+    /* Scrollbar tinh tế */
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #1c1917;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #57534e;
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #b45309;
+    }
+  </style>
+</head>
+<body class="bg-[#FAF8F5] text-stone-900 antialiased selection:bg-amber-800 selection:text-white">
+
+  <!-- ==================== BANNER HƯỚNG DẪN LẤY LINK WEB FREE TRÊN ĐẦU TRANG ==================== -->
+  <div id="freeHostBanner" class="bg-gradient-to-r from-amber-900 via-amber-800 to-stone-900 text-white px-4 py-2.5 text-xs border-b border-amber-600/40 relative z-50">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2">
+      <div class="flex items-center gap-2 text-center sm:text-left">
+        <span class="px-2 py-0.5 bg-amber-400 text-stone-950 font-bold uppercase tracking-wider rounded text-[10px]">MỚI • 100% FREE</span>
+        <span class="text-amber-100">Website này đã được đóng gói hoàn chỉnh! Bạn có thể tải file về và lấy link online miễn phí chỉ trong 30 giây.</span>
+      </div>
+      <div class="flex items-center gap-3">
+        <button onclick="openDeployModal()" class="px-3 py-1 bg-white text-stone-950 hover:bg-amber-200 font-semibold rounded transition-colors flex items-center gap-1.5 shadow-sm whitespace-nowrap">
+          <i data-lucide="globe" class="w-3.5 h-3.5 text-amber-700"></i>
+          <span>Lấy Link Web Miễn Phí Ngay</span>
+        </button>
+        <button onclick="document.getElementById('freeHostBanner').classList.add('hidden')" class="text-amber-200 hover:text-white p-1" title="Ẩn thông báo">
+          <i data-lucide="x" class="w-4 h-4"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== 1. HEADER / THANH ĐIỀU HƯỚNG SANG TRỌNG ==================== -->
+  <header id="mainHeader" class="sticky top-0 left-0 right-0 z-40 bg-stone-950/95 backdrop-blur-md border-b border-stone-800/80 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <!-- Logo HD DESIGN -->
+      <a href="#hero" class="flex items-center gap-3 group focus:outline-none">
+        <div class="w-11 h-11 rounded border border-amber-500/80 flex items-center justify-center bg-stone-900 group-hover:bg-amber-700 transition-colors duration-300 shadow-inner">
+          <span class="font-serif-luxury font-bold text-xl tracking-tighter text-amber-400 group-hover:text-white transition-colors">HD</span>
+        </div>
+        <div>
+          <span class="block text-lg sm:text-xl font-bold tracking-[0.22em] text-white leading-none">HD DESIGN</span>
+          <span class="block text-[10px] tracking-[0.25em] text-amber-400/90 uppercase mt-1">Architecture & Interior</span>
+        </div>
+      </a>
+
+      <!-- Menu Desktop -->
+      <nav class="hidden lg:flex items-center gap-7 text-sm font-medium text-stone-200">
+        <a href="#about" class="hover:text-amber-400 transition-colors py-1">Giới thiệu</a>
+        <a href="#portfolio" class="hover:text-amber-400 transition-colors py-1">Dự án tiêu biểu</a>
+        <a href="#services" class="hover:text-amber-400 transition-colors py-1">Dịch vụ</a>
+        <a href="#estimator" class="hover:text-amber-400 transition-colors py-1 flex items-center gap-1.5 text-amber-300">
+          <i data-lucide="calculator" class="w-4 h-4"></i>
+          <span>Tính dự toán</span>
+        </a>
+        <a href="#process" class="hover:text-amber-400 transition-colors py-1">Quy trình 6 bước</a>
+        <a href="#contact" class="hover:text-amber-400 transition-colors py-1">Liên hệ</a>
+      </nav>
+
+      <!-- Cụm nút Hành động Header -->
+      <div class="hidden sm:flex items-center gap-3">
+        <button onclick="openDeployModal()" class="px-3.5 py-2.5 rounded border border-amber-500/50 bg-stone-900 hover:bg-stone-800 text-amber-400 text-xs font-semibold tracking-wider uppercase transition-all flex items-center gap-1.5" title="Tải file web & đưa lên mạng miễn phí">
+          <i data-lucide="share-2" class="w-3.5 h-3.5"></i>
+          <span class="hidden xl:inline">Đưa Web Lên Mạng Free</span>
+          <span class="xl:hidden">Share Web</span>
+        </button>
+        <a href="#contact" class="px-5 py-2.5 rounded bg-amber-700 hover:bg-amber-600 text-white text-xs uppercase tracking-[0.14em] font-semibold transition-all flex items-center gap-2 shadow-lg shadow-amber-950/40">
+          <span>Đặt Lịch KTS</span>
+          <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+        </a>
+      </div>
+
+      <!-- Nút Menu Mobile -->
+      <button id="mobileMenuBtn" onclick="toggleMobileMenu()" class="lg:hidden p-2.5 text-stone-200 hover:text-amber-400 focus:outline-none" aria-label="Menu">
+        <i data-lucide="menu" class="w-6 h-6"></i>
+      </button>
+    </div>
+
+    <!-- Menu Mobile Dropdown -->
+    <div id="mobileMenu" class="hidden lg:hidden bg-stone-950 border-b border-stone-800 px-6 py-6 space-y-4">
+      <div class="flex flex-col space-y-3 text-sm text-stone-200">
+        <a href="#about" onclick="toggleMobileMenu()" class="py-2 border-b border-stone-800 hover:text-amber-400">Giới thiệu & Triết lý</a>
+        <a href="#portfolio" onclick="toggleMobileMenu()" class="py-2 border-b border-stone-800 hover:text-amber-400">Dự án tiêu biểu</a>
+        <a href="#services" onclick="toggleMobileMenu()" class="py-2 border-b border-stone-800 hover:text-amber-400">Dịch vụ Thiết kế & Thi công</a>
+        <a href="#estimator" onclick="toggleMobileMenu()" class="py-2 border-b border-stone-800 text-amber-400 font-semibold">Công cụ Tính Dự toán Chi phí</a>
+        <a href="#process" onclick="toggleMobileMenu()" class="py-2 border-b border-stone-800 hover:text-amber-400">Quy trình 6 bước chuẩn Quốc tế</a>
+        <a href="#contact" onclick="toggleMobileMenu()" class="py-2 hover:text-amber-400">Liên hệ & Đặt lịch hẹn</a>
+      </div>
+      <div class="grid grid-cols-1 gap-2.5 pt-2">
+        <button onclick="toggleMobileMenu(); openDeployModal();" class="w-full py-3 rounded border border-amber-500/60 bg-stone-900 text-amber-400 text-xs uppercase tracking-widest font-semibold flex items-center justify-center gap-2">
+          <i data-lucide="download" class="w-4 h-4"></i>
+          <span>Tải Web & Đưa Lên Mạng Free</span>
+        </button>
+        <a href="#contact" onclick="toggleMobileMenu()" class="w-full py-3 rounded bg-amber-700 text-white text-xs uppercase tracking-widest font-semibold flex items-center justify-center gap-2">
+          <span>Đặt Lịch Tư Vấn 1:1</span>
+          <i data-lucide="arrow-right" class="w-4 h-4"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== 2. HERO BANNER ==================== -->
+  <section id="hero" class="relative min-h-[88vh] flex flex-col justify-between bg-stone-950 text-white overflow-hidden">
+    <!-- Ảnh nền kiến trúc nội thất cao cấp -->
+    <div class="absolute inset-0 z-0">
+      <img
+        src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=2000&q=85"
+        alt="Không gian kiến trúc biệt thự HD DESIGN"
+        onerror="this.src='https://placehold.co/1920x1080/1c1917/d97706?text=HD+DESIGN+ARCHITECTURE'"
+        class="w-full h-full object-cover object-center opacity-50 scale-105 transition-transform duration-1000"
+      />
+      <div class="absolute inset-0 bg-gradient-to-r from-stone-950/95 via-stone-950/70 to-stone-950/40"></div>
+      <div class="absolute inset-0 bg-gradient-to-t from-stone-950 via-transparent to-stone-950/40"></div>
+    </div>
+
+    <!-- Nội dung chính Hero -->
+    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-16 lg:pt-28 lg:pb-24 w-full">
+      <div class="max-w-3xl">
+        <div class="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded bg-white/10 backdrop-blur-md border border-white/15 mb-6">
+          <span class="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span>
+          <span class="text-xs uppercase tracking-[0.24em] text-amber-300 font-medium">
+            HD DESIGN • HANOI ARCHITECTURE & BESPOKE INTERIOR
+          </span>
+        </div>
+
+        <h1 class="font-serif-luxury text-4xl sm:text-6xl lg:text-7xl font-semibold leading-[1.08] tracking-tight text-white mb-6">
+          Kiến Tạo Không Gian Sống <br />
+          <span class="italic font-normal text-amber-400">Độc Bản & Tinh Tế.</span>
+        </h1>
+
+        <p class="text-stone-300 text-base sm:text-lg leading-relaxed max-w-2xl mb-8 font-light">
+          Tại <strong class="text-white font-semibold">HD DESIGN</strong>, mỗi công trình là một bản giao hưởng giữa nghệ thuật tổ chức không gian, ánh sáng tự nhiên và vật liệu thượng hạng (Gỗ Óc chó Bắc Mỹ, Gỗ An Cường, Đá Marble tự nhiên & Kim loại mạ PVD).
+        </p>
+
+        <!-- Các phong cách thế mạnh -->
+        <div class="flex flex-wrap items-center gap-2 mb-10">
+          <span class="text-xs uppercase tracking-widest text-stone-400 mr-2">Phong cách chủ đạo:</span>
+          <span class="px-3 py-1 rounded bg-white/10 border border-white/15 text-xs text-amber-300">Modern Luxury</span>
+          <span class="px-3 py-1 rounded bg-white/10 border border-white/15 text-xs text-amber-300">Japandi</span>
+          <span class="px-3 py-1 rounded bg-white/10 border border-white/15 text-xs text-amber-300">Minimalist</span>
+          <span class="px-3 py-1 rounded bg-white/10 border border-white/15 text-xs text-amber-300">Art Deco</span>
+          <span class="px-3 py-1 rounded bg-white/10 border border-white/15 text-xs text-amber-300">Neoclassical</span>
+        </div>
+
+        <!-- Nút CTA -->
+        <div class="flex flex-col sm:flex-row sm:items-center gap-4">
+          <a href="#portfolio" class="px-8 py-4 rounded bg-amber-700 hover:bg-amber-600 text-white text-xs sm:text-sm uppercase tracking-[0.18em] font-semibold transition-all flex items-center justify-center gap-3 shadow-xl">
+            <span>Khám Phá Dự Án</span>
+            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </a>
+          <a href="#estimator" class="px-8 py-4 rounded bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/30 text-white text-xs sm:text-sm uppercase tracking-[0.18em] font-semibold transition-all flex items-center justify-center gap-3">
+            <i data-lucide="calculator" class="w-4 h-4 text-amber-400"></i>
+            <span>Tính Dự Toán Chi Phí</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Thanh chỉ số năng lực thực tế -->
+    <div class="relative z-10 border-t border-white/15 bg-stone-950/85 backdrop-blur-md">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-8">
+          <div class="border-l-2 border-amber-600 pl-5">
+            <div class="font-serif-luxury text-4xl sm:text-5xl font-bold text-white">150+</div>
+            <div class="text-xs sm:text-sm font-semibold uppercase tracking-wider text-amber-400 mt-1">Dự Án Thực Tế</div>
+            <div class="text-xs text-stone-400 mt-0.5">Biệt thự Vinhomes, Ecopark, Ciputra, Penthouse & Resort</div>
+          </div>
+          <div class="border-l-2 border-amber-600 pl-5">
+            <div class="font-serif-luxury text-4xl sm:text-5xl font-bold text-white">98%</div>
+            <div class="text-xs sm:text-sm font-semibold uppercase tracking-wider text-amber-400 mt-1">Khách Hàng Hài Lòng</div>
+            <div class="text-xs text-stone-400 mt-0.5">Thi công thực tế chuẩn xác 99% so với phối cảnh 3D</div>
+          </div>
+          <div class="border-l-2 border-amber-600 pl-5">
+            <div class="font-serif-luxury text-4xl sm:text-5xl font-bold text-white">2.000m²</div>
+            <div class="text-xs sm:text-sm font-semibold uppercase tracking-wider text-amber-400 mt-1">Xưởng Sản Xuất Nội Thất</div>
+            <div class="text-xs text-stone-400 mt-0.5">Máy CNC Homag Đức, tối ưu 25% chi phí không qua trung gian</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 3. GIỚI THIỆU & TRIẾT LÝ SÁNG TẠO ==================== -->
+  <section id="about" class="py-20 lg:py-28 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+      <!-- Cột Nội dung -->
+      <div class="lg:col-span-6 space-y-6">
+        <div class="inline-flex items-center gap-2 text-amber-800 text-xs uppercase tracking-[0.25em] font-semibold">
+          <span class="w-8 h-[1.5px] bg-amber-800"></span>
+          <span>Về Chúng Tôi • HD DESIGN</span>
+        </div>
+
+        <h2 class="font-serif-luxury text-3xl sm:text-5xl font-semibold text-stone-900 leading-[1.15]">
+          Nơi Nghệ Thuật Kiến Trúc <br />
+          <span class="italic font-normal text-amber-800">Giao Hòa Cùng Giá Trị Bền Vững</span>
+        </h2>
+
+        <p class="text-stone-600 leading-relaxed text-base">
+          Tọa lạc tại trung tâm Hà Nội, <strong>HD DESIGN (HD Design Architecture & Interior)</strong> quy tụ đội ngũ Kiến trúc sư và Kỹ sư giàu kinh nghiệm thực chiến. Chúng tôi chuyên sâu trong lĩnh vực Tư vấn Thiết kế Kiến trúc và Thi công Nội thất trọn gói "Chìa khóa trao tay".
+        </p>
+
+        <p class="text-stone-600 leading-relaxed text-base">
+          Sở hữu <strong>Nhà máy sản xuất nội thất quy mô 2.000m²</strong> tại Khu công nghiệp Thạch Thất – Hà Nội, HD DESIGN kiểm soát nghiêm ngặt từ nguồn nguyên liệu đầu vào (Gỗ Óc chó Bắc Mỹ kiện nguyên, hệ gỗ công nghiệp An Cường chống ẩm lõi xanh, Đá tự nhiên Marble nhập khẩu và phụ kiện Blum/Hafele) cho tới từng đường nét lắp đặt hoàn thiện tại công trình.
+        </p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-3">
+          <div class="bg-white p-5 rounded border border-stone-200/90 shadow-sm">
+            <div class="text-xs font-bold uppercase tracking-wider text-amber-800 mb-1.5">01. Cá Nhân Hóa</div>
+            <p class="text-xs text-stone-600 leading-relaxed">Mặt bằng công năng được may đo riêng theo thói quen sinh hoạt và phong thủy khoa học của gia chủ.</p>
+          </div>
+          <div class="bg-white p-5 rounded border border-stone-200/90 shadow-sm">
+            <div class="text-xs font-bold uppercase tracking-wider text-amber-800 mb-1.5">02. Tinh Tuyển Vật Liệu</div>
+            <p class="text-xs text-stone-600 leading-relaxed">Minh bạch 100% xuất xứ vật tư: Gỗ An Cường, Óc chó Bắc Mỹ, Đá Marble, kim loại mạ PVD.</p>
+          </div>
+          <div class="bg-white p-5 rounded border border-stone-200/90 shadow-sm">
+            <div class="text-xs font-bold uppercase tracking-wider text-amber-800 mb-1.5">03. Bảo Hành 10 Năm</div>
+            <p class="text-xs text-stone-600 leading-relaxed">Cam kết không phát sinh chi phí ngoài hợp đồng, bảo hành kết cấu 10 năm & bảo trì định kỳ.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cột Hình ảnh -->
+      <div class="lg:col-span-6">
+        <div class="grid grid-cols-12 gap-4 items-center">
+          <div class="col-span-7">
+            <img
+              src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=900&q=80"
+              alt="Nội thất HD DESIGN"
+              onerror="this.src='https://placehold.co/600x800/292524/d97706?text=HD+DESIGN+INTERIOR'"
+              class="w-full h-[420px] object-cover rounded shadow-xl"
+            />
+          </div>
+          <div class="col-span-5 space-y-4">
+            <img
+              src="https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=700&q=80"
+              alt="Chi tiết vật liệu"
+              onerror="this.src='https://placehold.co/500x400/292524/d97706?text=LUXURY+MATERIALS'"
+              class="w-full h-[210px] object-cover rounded shadow-lg"
+            />
+            <div class="bg-stone-900 text-white p-6 rounded shadow-xl border border-stone-800">
+              <i data-lucide="quote" class="w-6 h-6 text-amber-400 mb-2"></i>
+              <p class="font-serif-luxury italic text-lg leading-snug text-stone-200">
+                “Sự sang trọng đích thực nằm ở tỷ lệ hoàn hảo và cảm giác bình yên mỗi khi trở về nhà.”
+              </p>
+              <span class="block text-[11px] uppercase tracking-widest text-amber-400 mt-3">
+                — KTS Trưởng HD DESIGN
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 4. DANH MỤC DỰ ÁN TIÊU BIỂU (PORTFOLIO CÓ LỌC & TÌM KIẾM) ==================== -->
+  <section id="portfolio" class="py-20 lg:py-28 bg-stone-900 text-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-10">
+        <div>
+          <div class="inline-flex items-center gap-2 text-amber-400 text-xs uppercase tracking-[0.25em] font-semibold mb-3">
+            <span class="w-8 h-[1.5px] bg-amber-400"></span>
+            <span>Dấu Ấn Công Trình • Portfolio</span>
+          </div>
+          <h2 class="font-serif-luxury text-3xl sm:text-5xl font-semibold text-white">
+            Tuyển Tập Dự Án Thực Tế
+          </h2>
+        </div>
+
+        <!-- Ô tìm kiếm dự án -->
+        <div class="relative w-full lg:w-80">
+          <input
+            id="projectSearchInput"
+            type="text"
+            oninput="handleSearchProjects(this.value)"
+            placeholder="Tìm theo tên, Vinhomes, Japandi..."
+            class="w-full pl-10 pr-4 py-2.5 rounded bg-stone-950 border border-stone-700 text-sm text-white placeholder-stone-500 focus:outline-none focus:border-amber-500"
+          />
+          <i data-lucide="search" class="w-4 h-4 text-stone-400 absolute left-3.5 top-1/2 -translate-y-1/2"></i>
+        </div>
+      </div>
+
+      <!-- Các nút lọc danh mục -->
+      <div id="categoryButtons" class="flex flex-wrap gap-2 mb-10">
+        <button onclick="filterCategory('all')" data-cat="all" class="cat-btn px-4 py-2.5 rounded text-xs uppercase tracking-wider font-semibold transition-all border bg-amber-700 border-amber-700 text-white">
+          Tất cả dự án (6)
+        </button>
+        <button onclick="filterCategory('villa')" data-cat="villa" class="cat-btn px-4 py-2.5 rounded text-xs uppercase tracking-wider font-semibold transition-all border bg-stone-800/70 border-stone-700 text-stone-300 hover:border-amber-500/60">
+          Biệt thự / Villa
+        </button>
+        <button onclick="filterCategory('townhouse')" data-cat="townhouse" class="cat-btn px-4 py-2.5 rounded text-xs uppercase tracking-wider font-semibold transition-all border bg-stone-800/70 border-stone-700 text-stone-300 hover:border-amber-500/60">
+          Nhà phố / Townhouse
+        </button>
+        <button onclick="filterCategory('penthouse')" data-cat="penthouse" class="cat-btn px-4 py-2.5 rounded text-xs uppercase tracking-wider font-semibold transition-all border bg-stone-800/70 border-stone-700 text-stone-300 hover:border-amber-500/60">
+          Penthouse & Duplex
+        </button>
+        <button onclick="filterCategory('commercial')" data-cat="commercial" class="cat-btn px-4 py-2.5 rounded text-xs uppercase tracking-wider font-semibold transition-all border bg-stone-800/70 border-stone-700 text-stone-300 hover:border-amber-500/60">
+          Không gian Thương mại
+        </button>
+      </div>
+
+      <!-- Lưới dự án (Render bằng JS) -->
+      <div id="projectsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"></div>
+    </div>
+  </section>
+
+  <!-- ==================== 5. DỊCH VỤ CHUYÊN SÂU ==================== -->
+  <section id="services" class="py-20 lg:py-28 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <div class="inline-flex items-center gap-2 text-amber-800 text-xs uppercase tracking-[0.25em] font-semibold mb-3">
+        <span class="w-6 h-[1.5px] bg-amber-800"></span>
+        <span>Hệ Sinh Thái HD DESIGN</span>
+        <span class="w-6 h-[1.5px] bg-amber-800"></span>
+      </div>
+      <h2 class="font-serif-luxury text-3xl sm:text-5xl font-semibold text-stone-900">
+        Dịch Vụ Thiết Kế & Thi Công Trọn Gói
+      </h2>
+      <p class="text-stone-600 text-sm sm:text-base mt-3">
+        Giải pháp đồng bộ từ bản vẽ kiến trúc, phối cảnh 3D đến sản xuất nội thất tại xưởng 2.000m² và thi công hoàn thiện.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Dịch vụ 1 -->
+      <div class="bg-white p-8 rounded border border-stone-200/90 shadow-sm hover:shadow-xl hover:border-amber-700/60 transition-all flex flex-col justify-between group">
+        <div>
+          <div class="flex items-center justify-between mb-6">
+            <div class="w-12 h-12 rounded bg-stone-900 text-amber-400 flex items-center justify-center group-hover:bg-amber-700 group-hover:text-white transition-colors">
+              <i data-lucide="compass" class="w-6 h-6"></i>
+            </div>
+            <span class="px-3 py-1 rounded bg-amber-50 border border-amber-200 text-amber-900 text-xs font-semibold">
+              250.000đ - 450.000đ / m²
+            </span>
+          </div>
+          <h3 class="font-serif-luxury text-2xl font-bold text-stone-900 mb-3">Thiết Kế Kiến Trúc & Nội Thất 3D</h3>
+          <p class="text-stone-600 text-sm leading-relaxed mb-6">
+            Khảo sát hiện trạng, quy hoạch mặt bằng công năng 2D chuẩn phong thủy và dựng phối cảnh 3D Corona/3dsMax sắc nét từng vân gỗ, thớ đá.
+          </p>
+          <ul class="space-y-2 text-xs text-stone-700 border-t border-stone-100 pt-4">
+            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-amber-700"></i> Hồ sơ phối cảnh 3D Nội & Ngoại thất</li>
+            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-amber-700"></i> Bản vẽ kỹ thuật Kết cấu & Điện nước M&E</li>
+            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-amber-700"></i> Bảng chỉ dẫn vật liệu & Dự toán BOQ</li>
+          </ul>
+        </div>
+        <a href="#estimator" class="mt-6 pt-4 border-t border-stone-100 text-xs uppercase tracking-widest font-bold text-amber-800 hover:text-amber-600 flex items-center gap-1.5">
+          <span>Tính phí thiết kế ngay</span>
+          <i data-lucide="arrow-right" class="w-4 h-4"></i>
+        </a>
+      </div>
+
+      <!-- Dịch vụ 2 -->
+      <div class="bg-white p-8 rounded border-2 border-amber-700/80 shadow-lg flex flex-col justify-between relative group">
+        <div class="absolute -top-3 right-6 px-3 py-0.5 bg-amber-700 text-white text-[10px] uppercase tracking-widest font-bold rounded">
+          Được lựa chọn nhiều nhất
+        </div>
+        <div>
+          <div class="flex items-center justify-between mb-6">
+            <div class="w-12 h-12 rounded bg-amber-700 text-white flex items-center justify-center">
+              <i data-lucide="shield-check" class="w-6 h-6"></i>
+            </div>
+            <span class="px-3 py-1 rounded bg-emerald-50 border border-emerald-200 text-emerald-800 text-xs font-semibold">
+              Miễn 100% Phí Thiết Kế
+            </span>
+          </div>
+          <h3 class="font-serif-luxury text-2xl font-bold text-stone-900 mb-3">Thi Công Trọn Gói Chìa Khóa Trao Tay</h3>
+          <p class="text-stone-600 text-sm leading-relaxed mb-6">
+            Thực hiện trọn gói từ xây dựng phần thô, hoàn thiện điện nước, trần thạch cao, sơn bả cho đến sản xuất và lắp đặt toàn bộ nội thất may đo.
+          </p>
+          <ul class="space-y-2 text-xs text-stone-700 border-t border-stone-100 pt-4">
+            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-amber-700"></i> Hoàn trả 100% chi phí thiết kế ban đầu</li>
+            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-amber-700"></i> Sản xuất trực tiếp tại xưởng 2.000m²</li>
+            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-amber-700"></i> Kỹ sư giám sát hiện trường 24/7</li>
+          </ul>
+        </div>
+        <a href="#estimator" class="mt-6 pt-4 border-t border-stone-100 text-xs uppercase tracking-widest font-bold text-amber-800 hover:text-amber-600 flex items-center gap-1.5">
+          <span>Tính dự toán trọn gói</span>
+          <i data-lucide="arrow-right" class="w-4 h-4"></i>
+        </a>
+      </div>
+
+      <!-- Dịch vụ 3 -->
+      <div class="bg-white p-8 rounded border border-stone-200/90 shadow-sm hover:shadow-xl hover:border-amber-700/60 transition-all flex flex-col justify-between group">
+        <div>
+          <div class="flex items-center justify-between mb-6">
+            <div class="w-12 h-12 rounded bg-stone-900 text-amber-400 flex items-center justify-center group-hover:bg-amber-700 group-hover:text-white transition-colors">
+              <i data-lucide="layers" class="w-6 h-6"></i>
+            </div>
+            <span class="px-3 py-1 rounded bg-amber-50 border border-amber-200 text-amber-900 text-xs font-semibold">
+              Giá Gốc Tại Xưởng
+            </span>
+          </div>
+          <h3 class="font-serif-luxury text-2xl font-bold text-stone-900 mb-3">Sản Xuất & Thi Công Nội Thất Bespoke</h3>
+          <p class="text-stone-600 text-sm leading-relaxed mb-6">
+            Chuyên gia công đồ gỗ nội thất cao cấp (Gỗ Óc chó Bắc Mỹ, Gỗ Sồi, Gỗ An Cường Acrylic/Laminate) kết hợp đá tự nhiên Marble và kim loại mạ PVD.
+          </p>
+          <ul class="space-y-2 text-xs text-stone-700 border-t border-stone-100 pt-4">
+            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-amber-700"></i> Cam kết 100% vật liệu chính hãng</li>
+            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-amber-700"></i> Mời khách hàng nghiệm thu mộc tại xưởng</li>
+            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-amber-700"></i> Bảo hành 5 năm, bảo trì trọn đời</li>
+          </ul>
+        </div>
+        <a href="#contact" class="mt-6 pt-4 border-t border-stone-100 text-xs uppercase tracking-widest font-bold text-amber-800 hover:text-amber-600 flex items-center gap-1.5">
+          <span>Đăng ký tham quan xưởng</span>
+          <i data-lucide="arrow-right" class="w-4 h-4"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 6. CÔNG CỤ TÍNH DỰ TOÁN CHI PHÍ THỜI GIAN THỰC ==================== -->
+  <section id="estimator" class="py-20 lg:py-28 bg-stone-900 text-white relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl mb-12">
+        <div class="inline-flex items-center gap-2 text-amber-400 text-xs uppercase tracking-[0.25em] font-semibold mb-3">
+          <i data-lucide="calculator" class="w-4 h-4"></i>
+          <span>Công Cụ Độc Quyền • HD DESIGN Cost Estimator</span>
+        </div>
+        <h2 class="font-serif-luxury text-3xl sm:text-5xl font-semibold text-white">
+          Tính Dự Toán Chi Phí Thiết Kế & Thi Công
+        </h2>
+        <p class="text-stone-400 text-sm sm:text-base mt-3">
+          Lựa chọn loại hình công trình, phong cách thiết kế và diện tích bên dưới để nhận ngay bảng tạm tính kinh phí đầu tư theo thời gian thực.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+        <!-- Cột Trái: Bộ điều khiển thông số -->
+        <div class="lg:col-span-7 bg-stone-950 p-6 sm:p-8 rounded border border-stone-800 space-y-7">
+          <!-- 1. Loại hình công trình -->
+          <div>
+            <label class="block text-xs uppercase tracking-widest text-amber-400 font-semibold mb-3">
+              1. Loại Hình Công Trình
+            </label>
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-3" id="calcTypeGroup">
+              <button type="button" onclick="setCalcType('villa')" data-val="villa" class="calc-type-btn p-3.5 rounded border text-left transition-all bg-amber-700/20 border-amber-500 text-white">
+                <i data-lucide="home" class="w-5 h-5 text-amber-400 mb-2"></i>
+                <div class="text-xs font-bold">Biệt thự / Villa</div>
+              </button>
+              <button type="button" onclick="setCalcType('townhouse')" data-val="townhouse" class="calc-type-btn p-3.5 rounded border text-left transition-all bg-stone-900 border-stone-800 text-stone-400 hover:border-stone-700">
+                <i data-lucide="building-2" class="w-5 h-5 text-stone-500 mb-2"></i>
+                <div class="text-xs font-bold">Nhà phố</div>
+              </button>
+              <button type="button" onclick="setCalcType('penthouse')" data-val="penthouse" class="calc-type-btn p-3.5 rounded border text-left transition-all bg-stone-900 border-stone-800 text-stone-400 hover:border-stone-700">
+                <i data-lucide="layers" class="w-5 h-5 text-stone-500 mb-2"></i>
+                <div class="text-xs font-bold">Chung cư / Penthouse</div>
+              </button>
+              <button type="button" onclick="setCalcType('office')" data-val="office" class="calc-type-btn p-3.5 rounded border text-left transition-all bg-stone-900 border-stone-800 text-stone-400 hover:border-stone-700">
+                <i data-lucide="sparkles" class="w-5 h-5 text-stone-500 mb-2"></i>
+                <div class="text-xs font-bold">Văn phòng / Showroom</div>
+              </button>
+            </div>
+          </div>
+
+          <!-- 2. Phong cách thiết kế -->
+          <div>
+            <label class="block text-xs uppercase tracking-widest text-amber-400 font-semibold mb-3">
+              2. Phong Cách Thiết Kế Mong Muốn
+            </label>
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-3" id="calcStyleGroup">
+              <button type="button" onclick="setCalcStyle('minimalist')" data-val="minimalist" class="calc-style-btn p-3 rounded border text-left transition-all bg-stone-900 border-stone-800 text-stone-400 hover:border-stone-700">
+                <div class="text-xs font-bold text-white">Minimalist / Japandi</div>
+                <div class="text-[11px] text-stone-400 mt-1">Tinh gọn, mộc mạc</div>
+              </button>
+              <button type="button" onclick="setCalcStyle('modern_luxury')" data-val="modern_luxury" class="calc-style-btn p-3 rounded border text-left transition-all bg-amber-700/20 border-amber-500 text-white">
+                <div class="text-xs font-bold text-white">Modern Luxury</div>
+                <div class="text-[11px] text-amber-300 mt-1">Gỗ Óc chó, Đá Marble</div>
+              </button>
+              <button type="button" onclick="setCalcStyle('art_deco')" data-val="art_deco" class="calc-style-btn p-3 rounded border text-left transition-all bg-stone-900 border-stone-800 text-stone-400 hover:border-stone-700">
+                <div class="text-xs font-bold text-white">Art Deco</div>
+                <div class="text-[11px] text-stone-400 mt-1">Cá tính, nghệ thuật</div>
+              </button>
+              <button type="button" onclick="setCalcStyle('neoclassical')" data-val="neoclassical" class="calc-style-btn p-3 rounded border text-left transition-all bg-stone-900 border-stone-800 text-stone-400 hover:border-stone-700">
+                <div class="text-xs font-bold text-white">Neoclassical</div>
+                <div class="text-[11px] text-stone-400 mt-1">Tân cổ điển quý phái</div>
+              </button>
+            </div>
+          </div>
+
+          <!-- 3. Thanh trượt Diện tích 1 sàn & Số tầng -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-1">
+            <div>
+              <div class="flex justify-between text-xs mb-2">
+                <span class="uppercase tracking-wider text-stone-300 font-semibold">3. Diện tích sàn 1 tầng</span>
+                <span id="areaValueLabel" class="text-amber-400 font-bold text-base">160 m²</span>
+              </div>
+              <input
+                id="areaSlider"
+                type="range"
+                min="45"
+                max="500"
+                step="5"
+                value="160"
+                oninput="updateCalculator()"
+                class="w-full"
+              />
+              <div class="flex justify-between text-[11px] text-stone-500 mt-1.5">
+                <span>45 m²</span>
+                <span>250 m²</span>
+                <span>500 m²</span>
+              </div>
+            </div>
+
+            <div>
+              <div class="flex justify-between text-xs mb-2">
+                <span class="uppercase tracking-wider text-stone-300 font-semibold">4. Số tầng xây dựng</span>
+                <span id="floorsValueLabel" class="text-amber-400 font-bold text-base">3 Tầng</span>
+              </div>
+              <input
+                id="floorsSlider"
+                type="range"
+                min="1"
+                max="6"
+                step="1"
+                value="3"
+                oninput="updateCalculator()"
+                class="w-full"
+              />
+              <div class="flex justify-between text-[11px] text-stone-500 mt-1.5">
+                <span>1 tầng</span>
+                <span>3 tầng</span>
+                <span>6 tầng</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 5. Gói dịch vụ -->
+          <div>
+            <label class="block text-xs uppercase tracking-widest text-amber-400 font-semibold mb-3">
+              5. Gói Dịch Vụ Triển Khai
+            </label>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3" id="calcPackageGroup">
+              <button type="button" onclick="setCalcPackage('design_only')" data-val="design_only" class="calc-pkg-btn p-4 rounded border text-left transition-all bg-stone-900 border-stone-800 text-stone-400 hover:border-stone-700">
+                <div class="text-xs font-bold text-white">Chỉ Thiết Kế 3D & Hồ Sơ</div>
+                <div class="text-[11px] text-stone-400 mt-1">Bản vẽ 3D + Kỹ thuật M&E</div>
+              </button>
+              <button type="button" onclick="setCalcPackage('rough_finish')" data-val="rough_finish" class="calc-pkg-btn p-4 rounded border text-left transition-all bg-stone-900 border-stone-800 text-stone-400 hover:border-stone-700">
+                <div class="text-xs font-bold text-white">Thi Công Thô + Hoàn Thiện</div>
+                <div class="text-[11px] text-amber-400 mt-1">Ưu đãi giảm 50% phí thiết kế</div>
+              </button>
+              <button type="button" onclick="setCalcPackage('turnkey')" data-val="turnkey" class="calc-pkg-btn p-4 rounded border text-left transition-all bg-amber-700/20 border-amber-500 text-white">
+                <div class="text-xs font-bold text-white">Trọn Gói Full Nội Thất</div>
+                <div class="text-[11px] text-emerald-400 mt-1">Miễn 100% phí thiết kế</div>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cột Phải: Bảng kết quả Dự toán -->
+        <div class="lg:col-span-5 bg-gradient-to-b from-stone-800 to-stone-950 p-6 sm:p-8 rounded border border-amber-600/50 shadow-2xl">
+          <div class="flex items-center justify-between border-b border-stone-700 pb-4 mb-5">
+            <div>
+              <span class="text-[11px] uppercase tracking-widest text-amber-400 font-semibold">Báo Giá Tạm Tính Tự Động</span>
+              <h3 class="font-serif-luxury text-2xl font-bold text-white mt-0.5">Chi Tiết Ngân Sách Dự Kiến</h3>
+            </div>
+            <i data-lucide="file-text" class="w-6 h-6 text-amber-400"></i>
+          </div>
+
+          <div class="space-y-3.5 text-sm">
+            <div class="flex justify-between py-2 border-b border-stone-800">
+              <span class="text-stone-400">Tổng diện tích sàn xây dựng:</span>
+              <span id="outTotalArea" class="font-semibold text-white">480 m²</span>
+            </div>
+            <div class="flex justify-between py-2 border-b border-stone-800">
+              <span class="text-stone-400">Chi phí Thiết kế (3D & Kỹ thuật):</span>
+              <span id="outDesignCost" class="font-semibold text-white">168.000.000 VNĐ</span>
+            </div>
+            <div id="rowDiscount" class="flex justify-between py-2 border-b border-stone-800 text-emerald-400">
+              <span>Ưu đãi khấu trừ phí thiết kế:</span>
+              <span id="outDiscountCost" class="font-semibold">- 168.000.000 VNĐ</span>
+            </div>
+            <div id="rowRough" class="flex justify-between py-2 border-b border-stone-800">
+              <span class="text-stone-400">Chi phí Thi công phần thô:</span>
+              <span id="outRoughCost" class="font-semibold text-white">2.400.000.000 VNĐ</span>
+            </div>
+            <div id="rowInterior" class="flex justify-between py-2 border-b border-stone-800">
+              <span class="text-stone-400">Hoàn thiện & Nội thất may đo:</span>
+              <span id="outInteriorCost" class="font-semibold text-white">3.840.000.000 VNĐ</span>
+            </div>
+          </div>
+
+          <div class="mt-6 p-5 rounded bg-stone-900/90 border border-amber-500/40">
+            <span class="text-xs uppercase tracking-widest text-stone-400 block">Tổng Mức Đầu Tư Dự Kiến</span>
+            <div id="outGrandTotal" class="font-serif-luxury text-3xl sm:text-4xl font-bold text-amber-400 mt-1">
+              6.24 Tỷ VNĐ
+            </div>
+            <p class="text-[11px] text-stone-400 mt-2 leading-relaxed">
+              * Đã bao gồm vật liệu chuẩn Gỗ An Cường / Gỗ tự nhiên, Đá Marble và phụ kiện cao cấp. Cam kết không phát sinh chi phí.
+            </p>
+          </div>
+
+          <button
+            type="button"
+            onclick="sendEstimateToForm()"
+            class="w-full mt-6 py-4 rounded bg-amber-700 hover:bg-amber-600 text-white text-xs uppercase tracking-[0.16em] font-semibold transition-all flex items-center justify-center gap-2 shadow-lg"
+          >
+            <span>Gửi Bảng Dự Toán Này Cho KTS</span>
+            <i data-lucide="send" class="w-4 h-4"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 7. QUY TRÌNH LÀM VIỆC 6 BƯỚC CHUẨN QUỐC TẾ ==================== -->
+  <section id="process" class="py-20 lg:py-28 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex flex-col md:flex-row md:items-end justify-between mb-14">
+      <div>
+        <div class="inline-flex items-center gap-2 text-amber-800 text-xs uppercase tracking-[0.25em] font-semibold mb-3">
+          <span class="w-8 h-[1.5px] bg-amber-800"></span>
+          <span>Chuẩn Mực Quốc Tế • ISO 9001</span>
+        </div>
+        <h2 class="font-serif-luxury text-3xl sm:text-5xl font-semibold text-stone-900">
+          Quy Trình Làm Việc 6 Bước Khép Kín
+        </h2>
+      </div>
+      <p class="text-sm text-stone-600 max-w-md mt-3 md:mt-0">
+        Kiểm soát chặt chẽ tiến độ và chất lượng ở từng giai đoạn, giúp gia chủ hoàn toàn an tâm.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="bg-white p-7 rounded border border-stone-200/90 hover:border-amber-700 transition-all">
+        <div class="flex items-center justify-between mb-4">
+          <span class="font-serif-luxury text-4xl font-bold text-amber-700">01</span>
+          <span class="px-2.5 py-1 rounded bg-stone-100 text-stone-700 text-[11px] font-semibold">Ngày 1 - 3</span>
+        </div>
+        <h3 class="font-serif-luxury text-xl font-bold text-stone-900 mb-2">Khảo Sát Hiện Trạng & Lên Mặt Bằng 2D</h3>
+        <p class="text-xs text-stone-600 leading-relaxed">
+          Đo đạc thực tế bằng máy Laser, phân tích hướng nắng gió, phong thủy và đề xuất phương án bố trí mặt bằng công năng 2D tối ưu.
+        </p>
+      </div>
+
+      <div class="bg-white p-7 rounded border border-stone-200/90 hover:border-amber-700 transition-all">
+        <div class="flex items-center justify-between mb-4">
+          <span class="font-serif-luxury text-4xl font-bold text-amber-700">02</span>
+          <span class="px-2.5 py-1 rounded bg-stone-100 text-stone-700 text-[11px] font-semibold">Ngày 4 - 18</span>
+        </div>
+        <h3 class="font-serif-luxury text-xl font-bold text-stone-900 mb-2">Phối Cảnh 3D Corona / 3dsMax Sắc Nét</h3>
+        <p class="text-xs text-stone-600 leading-relaxed">
+          Dựng phối cảnh 3D chân thực 99% kèm Moodboard mẫu vật liệu thực tế (gỗ, đá, da, vải, kim loại mạ PVD) để gia chủ trực tiếp cảm nhận.
+        </p>
+      </div>
+
+      <div class="bg-white p-7 rounded border border-stone-200/90 hover:border-amber-700 transition-all">
+        <div class="flex items-center justify-between mb-4">
+          <span class="font-serif-luxury text-4xl font-bold text-amber-700">03</span>
+          <span class="px-2.5 py-1 rounded bg-stone-100 text-stone-700 text-[11px] font-semibold">Ngày 19 - 30</span>
+        </div>
+        <h3 class="font-serif-luxury text-xl font-bold text-stone-900 mb-2">Hồ Sơ Kỹ Thuật Thi Công & Dự Toán BOQ</h3>
+        <p class="text-xs text-stone-600 leading-relaxed">
+          Triển khai bản vẽ chi tiết kiến trúc, kết cấu, điện nước M&E, bản vẽ bóc tách sản xuất đồ nội thất và bảng báo giá chi tiết từng hạng mục.
+        </p>
+      </div>
+
+      <div class="bg-white p-7 rounded border border-stone-200/90 hover:border-amber-700 transition-all">
+        <div class="flex items-center justify-between mb-4">
+          <span class="font-serif-luxury text-4xl font-bold text-amber-700">04</span>
+          <span class="px-2.5 py-1 rounded bg-stone-100 text-stone-700 text-[11px] font-semibold">Song song</span>
+        </div>
+        <h3 class="font-serif-luxury text-xl font-bold text-stone-900 mb-2">Sản Xuất Nội Thất Tại Xưởng 2.000m²</h3>
+        <p class="text-xs text-stone-600 leading-relaxed">
+          Gia công nội thất trên dây chuyền máy CNC tự động tại xưởng HD DESIGN. Mời Chủ đầu tư nghiệm thu phần mộc và màu sơn trước khi xuất xưởng.
+        </p>
+      </div>
+
+      <div class="bg-white p-7 rounded border border-stone-200/90 hover:border-amber-700 transition-all">
+        <div class="flex items-center justify-between mb-4">
+          <span class="font-serif-luxury text-4xl font-bold text-amber-700">05</span>
+          <span class="px-2.5 py-1 rounded bg-stone-100 text-stone-700 text-[11px] font-semibold">Theo tiến độ</span>
+        </div>
+        <h3 class="font-serif-luxury text-xl font-bold text-stone-900 mb-2">Thi Công Xây Dựng & Lắp Đặt Hoàn Thiện</h3>
+        <p class="text-xs text-stone-600 leading-relaxed">
+          Thi công phần thô, hoàn thiện trần sàn và lắp đặt nội thất đồng bộ. Kỹ sư trưởng cập nhật nhật ký hình ảnh công trình hàng ngày.
+        </p>
+      </div>
+
+      <div class="bg-white p-7 rounded border border-stone-200/90 hover:border-amber-700 transition-all">
+        <div class="flex items-center justify-between mb-4">
+          <span class="font-serif-luxury text-4xl font-bold text-amber-700">06</span>
+          <span class="px-2.5 py-1 rounded bg-emerald-50 text-emerald-800 text-[11px] font-semibold">Trọn đời</span>
+        </div>
+        <h3 class="font-serif-luxury text-xl font-bold text-stone-900 mb-2">Vệ Sinh Công Nghiệp, Bàn Giao & Bảo Hành</h3>
+        <p class="text-xs text-stone-600 leading-relaxed">
+          Đo kiểm chất lượng không khí, nghiệm thu từng chi tiết, trao chìa khóa và kích hoạt chế độ bảo hành 10 năm kết cấu, 5 năm nội thất.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 8. ĐẶT LỊCH HẸN TƯ VẤN VỚI KIẾN TRÚC SƯ TRƯỞNG ==================== -->
+  <section id="contact" class="py-20 lg:py-28 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-1 lg:grid-cols-12 rounded overflow-hidden shadow-2xl border border-stone-800 bg-stone-950 text-white">
+      <!-- Cột Thông tin công ty tại Hà Nội -->
+      <div class="lg:col-span-5 p-8 sm:p-12 bg-stone-900 flex flex-col justify-between">
+        <div>
+          <span class="text-xs uppercase tracking-[0.25em] text-amber-400 font-semibold">HD DESIGN • Liên Hệ Tư Vấn</span>
+          <h2 class="font-serif-luxury text-3xl sm:text-4xl font-semibold text-white mt-2 mb-4">
+            Đặt Lịch Hẹn Tư Vấn Trực Tiếp Cùng KTS Trưởng
+          </h2>
+          <p class="text-stone-400 text-sm leading-relaxed mb-8">
+            Quý khách để lại thông tin dự án bên cạnh, Kiến trúc sư trưởng của HD DESIGN sẽ liên hệ trong vòng 30 phút để tư vấn phương án mặt bằng và dự toán sơ bộ hoàn toàn miễn phí.
+          </p>
+
+          <div class="space-y-5 text-sm">
+            <div class="flex items-start gap-3.5">
+              <div class="w-10 h-10 rounded bg-stone-800 border border-stone-700 flex items-center justify-center text-amber-400 flex-shrink-0">
+                <i data-lucide="map-pin" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="text-xs uppercase tracking-wider text-stone-400 font-semibold">Trụ Sở & Showroom Hà Nội</h4>
+                <p class="text-stone-200 mt-1">• Văn phòng: Tầng 18, Lotte Center, 54 Liễu Giai, Ba Đình, Hà Nội</p>
+                <p class="text-stone-200 mt-1">• Showroom: Khu đô thị Vinhomes Riverside, Long Biên, Hà Nội</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3.5">
+              <div class="w-10 h-10 rounded bg-stone-800 border border-stone-700 flex items-center justify-center text-amber-400 flex-shrink-0">
+                <i data-lucide="factory" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="text-xs uppercase tracking-wider text-stone-400 font-semibold">Xưởng Sản Xuất Nội Thất (2.000m²)</h4>
+                <p class="text-stone-200 mt-1">KCN Thạch Thất – Quốc Oai, TP. Hà Nội</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3.5">
+              <div class="w-10 h-10 rounded bg-stone-800 border border-stone-700 flex items-center justify-center text-amber-400 flex-shrink-0">
+                <i data-lucide="phone-call" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="text-xs uppercase tracking-wider text-stone-400 font-semibold">Hotline / Zalo 24/7</h4>
+                <p class="text-lg font-bold text-amber-400 mt-0.5">0988 666 888 • 1900 6886</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3.5">
+              <div class="w-10 h-10 rounded bg-stone-800 border border-stone-700 flex items-center justify-center text-amber-400 flex-shrink-0">
+                <i data-lucide="mail" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="text-xs uppercase tracking-wider text-stone-400 font-semibold">Email Chính Thức</h4>
+                <p class="text-stone-200 mt-0.5">contact@hddesign.vn</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-8 pt-6 border-t border-stone-800 flex items-center justify-between text-xs text-stone-400">
+          <span>Giờ làm việc: Thứ 2 - Thứ 7 (08:30 - 18:00)</span>
+          <span class="text-amber-400 font-semibold">Có chỗ đỗ xe Ô tô</span>
+        </div>
+      </div>
+
+      <!-- Cột Biểu mẫu đăng ký -->
+      <div class="lg:col-span-7 p-8 sm:p-12">
+        <form id="bookingForm" onsubmit="handleBookingSubmit(event)" class="space-y-5">
+          <h3 class="font-serif-luxury text-2xl font-semibold text-white mb-2">
+            Thông Tin Công Trình Cần Tư Vấn
+          </h3>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+            <div>
+              <label class="block text-xs uppercase tracking-wider text-stone-400 mb-2">Họ và tên Chủ đầu tư *</label>
+              <input
+                id="formName"
+                type="text"
+                required
+                placeholder="VD: Anh Nguyễn Hoàng Nam"
+                class="w-full px-4 py-3 rounded bg-stone-900 border border-stone-700 text-white text-sm focus:outline-none focus:border-amber-500"
+              />
+            </div>
+            <div>
+              <label class="block text-xs uppercase tracking-wider text-stone-400 mb-2">Số điện thoại / Zalo *</label>
+              <input
+                id="formPhone"
+                type="tel"
+                required
+                placeholder="VD: 0912 345 678"
+                class="w-full px-4 py-3 rounded bg-stone-900 border border-stone-700 text-white text-sm focus:outline-none focus:border-amber-500"
+              />
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+            <div>
+              <label class="block text-xs uppercase tracking-wider text-stone-400 mb-2">Loại hình công trình</label>
+              <select
+                id="formType"
+                class="w-full px-4 py-3 rounded bg-stone-900 border border-stone-700 text-white text-sm focus:outline-none focus:border-amber-500"
+              >
+                <option value="Biệt thự / Villa">Biệt thự / Villa</option>
+                <option value="Nhà phố / Townhouse">Nhà phố / Townhouse</option>
+                <option value="Penthouse & Duplex">Penthouse & Duplex</option>
+                <option value="Không gian Thương mại / Văn phòng">Không gian Thương mại / Văn phòng</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-xs uppercase tracking-wider text-stone-400 mb-2">Mức đầu tư dự kiến</label>
+              <input
+                id="formBudget"
+                type="text"
+                placeholder="VD: 5 - 10 Tỷ VNĐ"
+                class="w-full px-4 py-3 rounded bg-stone-900 border border-stone-700 text-white text-sm focus:outline-none focus:border-amber-500"
+              />
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-xs uppercase tracking-wider text-stone-400 mb-2">Địa điểm dự án</label>
+            <input
+              id="formLocation"
+              type="text"
+              placeholder="VD: Khu đô thị Vinhomes Ocean Park / Ecopark / Tây Hồ, Hà Nội..."
+              class="w-full px-4 py-3 rounded bg-stone-900 border border-stone-700 text-white text-sm focus:outline-none focus:border-amber-500"
+            />
+          </div>
+
+          <div>
+            <label class="block text-xs uppercase tracking-wider text-stone-400 mb-2">Yêu cầu chi tiết về phong cách & công năng</label>
+            <textarea
+              id="formMessage"
+              rows="4"
+              placeholder="Chia sẻ diện tích, số tầng, phong cách yêu thích (Modern Luxury, Japandi, Neoclassical...) hoặc thời điểm dự kiến khởi công..."
+              class="w-full px-4 py-3 rounded bg-stone-900 border border-stone-700 text-white text-sm focus:outline-none focus:border-amber-500"
+            ></textarea>
+          </div>
+
+          <button
+            type="submit"
+            class="w-full py-4 rounded bg-amber-700 hover:bg-amber-600 text-white text-xs uppercase tracking-[0.2em] font-semibold transition-all flex items-center justify-center gap-2 shadow-lg"
+          >
+            <i data-lucide="calendar-check" class="w-4 h-4"></i>
+            <span>Xác Nhận Đặt Lịch Hẹn Kiến Trúc Sư</span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 9. FOOTER ==================== -->
+  <footer class="bg-stone-950 text-stone-400 border-t border-stone-800/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
+        <!-- Cột 1 -->
+        <div class="space-y-4">
+          <div class="flex items-center gap-3">
+            <div class="w-9 h-9 rounded border border-amber-500/80 flex items-center justify-center bg-stone-900">
+              <span class="font-serif-luxury font-bold text-base text-amber-400">HD</span>
+            </div>
+            <div>
+              <span class="block text-lg font-bold tracking-[0.2em] text-white leading-none">HD DESIGN</span>
+              <span class="block text-[9px] tracking-[0.25em] text-amber-400 uppercase mt-1">Architecture & Interior</span>
+            </div>
+          </div>
+          <p class="text-xs leading-relaxed text-stone-400">
+            Công ty Cổ phần Kiến trúc & Nội thất HD DESIGN Việt Nam — Kiến tạo không gian sống độc bản, tinh tế với hệ thống xưởng sản xuất nội thất 2.000m² tại Hà Nội.
+          </p>
+        </div>
+
+        <!-- Cột 2 -->
+        <div>
+          <h4 class="text-xs uppercase tracking-[0.2em] text-white font-semibold mb-4">Liên Kết Nhanh</h4>
+          <ul class="space-y-2.5 text-xs">
+            <li><a href="#about" class="hover:text-amber-400 transition-colors">Giới thiệu & Năng lực</a></li>
+            <li><a href="#portfolio" class="hover:text-amber-400 transition-colors">Dự án Biệt thự & Penthouse</a></li>
+            <li><a href="#estimator" class="hover:text-amber-400 transition-colors">Công cụ Tính dự toán 2026</a></li>
+            <li><a href="#process" class="hover:text-amber-400 transition-colors">Quy trình thiết kế & thi công</a></li>
+            <li><button onclick="openDeployModal()" class="text-amber-400 hover:underline">Tải mã nguồn Web (index.html)</button></li>
+          </ul>
+        </div>
+
+        <!-- Cột 3 -->
+        <div>
+          <h4 class="text-xs uppercase tracking-[0.2em] text-white font-semibold mb-4">Phong Cách Thế Mạnh</h4>
+          <ul class="space-y-2.5 text-xs">
+            <li>• Modern Luxury (Gỗ Óc chó & Đá Marble)</li>
+            <li>• Japandi & Wabi-Sabi Tinh Tế</li>
+            <li>• Minimalist Đương Đại</li>
+            <li>• Art Deco Cá Tính Thượng Lưu</li>
+            <li>• Neoclassical (Tân Cổ Điển Sang Trọng)</li>
+          </ul>
+        </div>
+
+        <!-- Cột 4 -->
+        <div>
+          <h4 class="text-xs uppercase tracking-[0.2em] text-white font-semibold mb-4">Nhận Catalogue 2026</h4>
+          <p class="text-xs text-stone-400 mb-3 leading-relaxed">
+            Nhận ấn phẩm 50+ Mẫu Thiết kế Biệt thự & Penthouse mới nhất của HD DESIGN qua Email:
+          </p>
+          <form onsubmit="event.preventDefault(); showToast('Đã gửi Catalogue HD DESIGN 2026 tới email của bạn!');" class="flex">
+            <input type="email" required placeholder="Nhập email của bạn..." class="bg-stone-900 border border-stone-800 rounded-l px-3.5 py-2.5 text-xs text-white w-full focus:outline-none focus:border-amber-500" />
+            <button type="submit" class="px-4 bg-amber-700 hover:bg-amber-600 text-white text-xs font-semibold uppercase rounded-r">Gửi</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="pt-8 border-t border-stone-900 flex flex-col sm:flex-row items-center justify-between text-xs text-stone-500 gap-4">
+        <p>© 2026 CÔNG TY CỔ PHẦN KIẾN TRÚC & NỘI THẤT HD DESIGN. All rights reserved.</p>
+        <div class="flex gap-6">
+          <span>MST: 0109886688</span>
+          <span>Bảo hành kết cấu 10 năm</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== FLOATING ZALO / HOTLINE QUICK CONTACT ==================== -->
+  <div class="fixed bottom-5 right-5 z-40 flex flex-col gap-3">
+    <button
+      onclick="openDeployModal()"
+      class="w-12 h-12 rounded-full bg-stone-900 hover:bg-amber-700 text-amber-400 hover:text-white border border-amber-500/60 shadow-xl flex items-center justify-center transition-all group relative"
+      title="Đưa web lên mạng Free"
+    >
+      <i data-lucide="download-cloud" class="w-5 h-5"></i>
+      <span class="absolute right-14 bg-stone-950 text-white text-[11px] px-3 py-1.5 rounded border border-stone-700 whitespace-nowrap opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity">
+        Tải file Web & Lấy Link Free
+      </span>
+    </button>
+
+    <button
+      onclick="showToast('Đang kết nối Zalo OA chính thức của HD DESIGN: 0988.666.888')"
+      class="w-12 h-12 rounded-full bg-blue-600 hover:bg-blue-500 text-white shadow-xl flex items-center justify-center font-bold text-xs tracking-tighter transition-transform hover:scale-105"
+      title="Chat Zalo với KTS"
+    >
+      Zalo
+    </button>
+
+    <a
+      href="#contact"
+      class="w-12 h-12 rounded-full bg-amber-700 hover:bg-amber-600 text-white shadow-xl flex items-center justify-center transition-transform hover:scale-105 animate-bounce"
+      title="Gọi Hotline 0988.666.888"
+    >
+      <i data-lucide="phone" class="w-5 h-5"></i>
+    </a>
+  </div>
+
+  <!-- ==================== MODAL 1: CHI TIẾT DỰ ÁN (PROJECT DETAIL MODAL) ==================== -->
+  <div id="projectModal" class="fixed inset-0 z-50 hidden bg-stone-950/90 backdrop-blur-md flex items-center justify-center p-3 sm:p-6 overflow-y-auto" onclick="closeProjectModal()">
+    <div class="bg-stone-900 border border-stone-700 rounded max-w-5xl w-full max-h-[92vh] overflow-y-auto text-white shadow-2xl relative" onclick="event.stopPropagation()">
+      <!-- Nút Đóng -->
+      <button onclick="closeProjectModal()" class="sticky top-4 float-right mr-4 mt-4 z-20 w-10 h-10 rounded bg-stone-950/90 hover:bg-amber-700 text-white border border-stone-700 flex items-center justify-center transition-colors">
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+
+      <div class="p-5 sm:p-8 pt-6">
+        <!-- Ảnh chính trong Modal -->
+        <div class="relative h-72 sm:h-[430px] bg-stone-950 rounded mb-4 overflow-hidden border border-stone-800">
+          <img id="modalMainImg" src="" alt="" class="w-full h-full object-cover" />
+          <button onclick="prevModalImg()" class="absolute left-3 top-1/2 -translate-y-1/2 w-10 h-10 rounded bg-stone-950/80 hover:bg-amber-700 text-white flex items-center justify-center">
+            <i data-lucide="chevron-left" class="w-5 h-5"></i>
+          </button>
+          <button onclick="nextModalImg()" class="absolute right-3 top-1/2 -translate-y-1/2 w-10 h-10 rounded bg-stone-950/80 hover:bg-amber-700 text-white flex items-center justify-center">
+            <i data-lucide="chevron-right" class="w-5 h-5"></i>
+          </button>
+          <div id="modalImgCounter" class="absolute bottom-3 right-3 px-3 py-1 rounded bg-stone-950/85 text-xs text-stone-300">
+            Ảnh 1 / 4
+          </div>
+        </div>
+
+        <!-- Dải ảnh thu nhỏ (Thumbnails) -->
+        <div id="modalThumbnails" class="flex gap-3 overflow-x-auto pb-2 mb-6"></div>
+
+        <!-- Nội dung & Thông số kỹ thuật -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+          <div class="lg:col-span-7 space-y-4">
+            <div id="modalBadge" class="inline-block px-3 py-1 rounded bg-amber-700/20 border border-amber-600/40 text-amber-400 text-xs uppercase tracking-widest"></div>
+            <h3 id="modalTitle" class="font-serif-luxury text-3xl sm:text-4xl font-semibold text-white"></h3>
+            <p id="modalDesc" class="text-stone-300 text-sm sm:text-base leading-relaxed"></p>
+
+            <div class="pt-2">
+              <h4 class="text-xs uppercase tracking-widest text-amber-400 font-semibold mb-3">
+                Giải Pháp Mặt Bằng Công Năng & Kỹ Thuật:
+              </h4>
+              <ul id="modalHighlights" class="space-y-2 text-sm text-stone-300"></ul>
+            </div>
+          </div>
+
+          <div class="lg:col-span-5 bg-stone-950 p-6 rounded border border-stone-800 space-y-3.5 h-fit">
+            <h4 class="text-xs uppercase tracking-[0.2em] text-amber-400 font-semibold pb-3 border-b border-stone-800">
+              Hồ Sơ Kỹ Thuật Dự Án
+            </h4>
+            <div class="space-y-2.5 text-xs sm:text-sm">
+              <div class="flex justify-between py-1.5 border-b border-stone-800/70">
+                <span class="text-stone-400">Địa điểm:</span>
+                <span id="modalLocation" class="font-medium text-white text-right"></span>
+              </div>
+              <div class="flex justify-between py-1.5 border-b border-stone-800/70">
+                <span class="text-stone-400">Diện tích sàn:</span>
+                <span id="modalArea" class="font-medium text-white"></span>
+              </div>
+              <div class="flex justify-between py-1.5 border-b border-stone-800/70">
+                <span class="text-stone-400">Phong cách:</span>
+                <span id="modalStyle" class="font-medium text-amber-300 text-right"></span>
+              </div>
+              <div class="py-1.5 border-b border-stone-800/70">
+                <span class="text-stone-400 block mb-1">Mặt bằng công năng:</span>
+                <span id="modalFloorplan" class="text-xs text-stone-200 leading-relaxed block"></span>
+              </div>
+              <div class="py-1.5 border-b border-stone-800/70">
+                <span class="text-stone-400 block mb-1">Vật liệu chủ đạo:</span>
+                <span id="modalMaterials" class="text-xs text-stone-200 leading-relaxed block"></span>
+              </div>
+              <div class="flex justify-between py-1.5">
+                <span class="text-stone-400">Tổng mức đầu tư:</span>
+                <span id="modalBudget" class="font-bold text-amber-400 text-base"></span>
+              </div>
+            </div>
+
+            <button
+              onclick="requestThisProjectSample()"
+              class="w-full mt-4 py-3.5 rounded bg-amber-700 hover:bg-amber-600 text-white text-xs uppercase tracking-widest font-semibold transition-colors flex items-center justify-center gap-2"
+            >
+              <span>Yêu Cầu Tư Vấn Mẫu Này</span>
+              <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== MODAL 2: HƯỚNG DẪN ĐƯA WEB LÊN MẠNG FREE TRONG 30 GIÂY ==================== -->
+  <div id="deployModal" class="fixed inset-0 z-50 hidden bg-stone-950/90 backdrop-blur-md flex items-center justify-center p-4 overflow-y-auto" onclick="closeDeployModal()">
+    <div class="bg-stone-900 border border-amber-500/50 rounded-lg max-w-2xl w-full p-6 sm:p-8 text-white shadow-2xl relative" onclick="event.stopPropagation()">
+      <button onclick="closeDeployModal()" class="absolute top-4 right-4 w-9 h-9 rounded bg-stone-800 hover:bg-amber-700 flex items-center justify-center text-stone-300 hover:text-white">
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded bg-amber-500/20 text-amber-300 text-xs font-semibold uppercase tracking-widest mb-3">
+        <i data-lucide="sparkles" class="w-4 h-4"></i>
+        <span>Giải Pháp Đăng Web Miễn Phí 100%</span>
+      </div>
+
+      <h3 class="font-serif-luxury text-3xl font-bold text-white mb-2">
+        Lấy Link Website Online Gửi Cho Khách Hàng Trong 30 Giây
+      </h3>
+      <p class="text-stone-300 text-xs sm:text-sm leading-relaxed mb-6">
+        Toàn bộ website <strong>HD DESIGN</strong> bạn đang xem đã được tích hợp gọn trong <strong>1 file `index.html` duy nhất</strong>. Bạn không cần biết lập trình, chỉ cần làm đúng 2 bước dưới đây để có đường link online miễn phí vĩnh viễn:
+      </p>
+
+      <div class="space-y-4 mb-6">
+        <!-- Bước 1 -->
+        <div class="p-4 rounded bg-stone-950 border border-stone-800 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+          <div>
+            <div class="text-xs font-bold uppercase tracking-wider text-amber-400">Bước 1: Tải file Website về máy</div>
+            <p class="text-xs text-stone-400 mt-1">Bấm nút bên cạnh để tải file chuẩn <code class="text-amber-300">index.html</code> về máy tính hoặc điện thoại của bạn.</p>
+          </div>
+          <button
+            onclick="downloadStandaloneHTML()"
+            class="px-5 py-3 rounded bg-amber-600 hover:bg-amber-500 text-stone-950 font-bold text-xs uppercase tracking-wider flex items-center gap-2 whitespace-nowrap shadow-lg"
+          >
+            <i data-lucide="download" class="w-4 h-4"></i>
+            <span>Tải File index.html</span>
+          </button>
+        </div>
+
+        <!-- Bước 2 -->
+        <div class="p-4 rounded bg-stone-950 border border-stone-800 space-y-2.5">
+          <div class="text-xs font-bold uppercase tracking-wider text-amber-400">Bước 2: Kéo-thả file lên dịch vụ Hosting Free (Chọn 1 trong 3 nơi uy tín nhất):</div>
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-1">
+            <a href="https://app.netlify.com/drop" target="_blank" rel="noopener noreferrer" class="p-3 rounded bg-stone-900 hover:bg-stone-800 border border-stone-700 hover:border-amber-500 transition-all block">
+              <div class="text-xs font-bold text-white flex items-center justify-between">
+                <span>1. Netlify Drop</span>
+                <i data-lucide="external-link" class="w-3.5 h-3.5 text-amber-400"></i>
+              </div>
+              <p class="text-[11px] text-stone-400 mt-1">Kéo file <code class="text-amber-300">index.html</code> thả vào ô trên trang là có ngay link <code class="text-stone-300">.netlify.app</code></p>
+            </a>
+
+            <a href="https://tiiny.host" target="_blank" rel="noopener noreferrer" class="p-3 rounded bg-stone-900 hover:bg-stone-800 border border-stone-700 hover:border-amber-500 transition-all block">
+              <div class="text-xs font-bold text-white flex items-center justify-between">
+                <span>2. Tiiny.host</span>
+                <i data-lucide="external-link" class="w-3.5 h-3.5 text-amber-400"></i>
+              </div>
+              <p class="text-[11px] text-stone-400 mt-1">Tải thẳng 1 file <code class="text-amber-300">index.html</code> lên, đặt tên <code class="text-stone-300">hd-design</code> là xong ngay.</p>
+            </a>
+
+            <a href="https://vercel.com/new" target="_blank" rel="noopener noreferrer" class="p-3 rounded bg-stone-900 hover:bg-stone-800 border border-stone-700 hover:border-amber-500 transition-all block">
+              <div class="text-xs font-bold text-white flex items-center justify-between">
+                <span>3. Vercel / GitHub</span>
+                <i data-lucide="external-link" class="w-3.5 h-3.5 text-amber-400"></i>
+              </div>
+              <p class="text-[11px] text-stone-400 mt-1">Tốc độ cực nhanh, miễn phí trọn đời với đuôi <code class="text-stone-300">hd-design.vercel.app</code></p>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex items-center justify-between pt-4 border-t border-stone-800 text-xs text-stone-400">
+        <span>Mẹo: Bạn cũng có thể mở trực tiếp file <code class="text-amber-300">index.html</code> vừa tải về bằng trình duyệt bất kỳ!</span>
+        <button onclick="closeDeployModal()" class="px-4 py-2 rounded bg-stone-800 hover:bg-stone-700 text-white font-semibold">Đã hiểu</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== TOAST NOTIFICATION ==================== -->
+  <div id="toastBox" class="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 hidden bg-stone-900 text-white px-6 py-3.5 rounded border border-amber-500 shadow-2xl flex items-center gap-3 text-xs sm:text-sm">
+    <i data-lucide="check-circle-2" class="w-5 h-5 text-emerald-400 flex-shrink-0"></i>
+    <span id="toastText">Thành công!</span>
+  </div>
+
+  <!-- ==================== JAVASCRIPT LOGIC ==================== -->
+  <script>
+    // --- 1. DỮ LIỆU DỰ ÁN TIÊU BIỂU CỦA HD DESIGN ---
+    const PROJECTS = [
+      {
+        id: 1,
+        title: "The Zen Residence - Biệt Thự Đơn Lập Vinhomes Riverside",
+        category: "villa",
+        categoryLabel: "Biệt thự / Villa",
+        location: "Vinhomes Riverside, Long Biên, Hà Nội",
+        area: "650 m² (3 tầng + 1 hầm)",
+        style: "Modern Luxury",
+        budget: "16.8 Tỷ VNĐ",
+        floorplan: "Tầng hầm: Hầm rượu & Cigar Lounge • Tầng 1: Phòng khách thông tầng, Bếp Đảo, Hồ cá Koi • Tầng 2-3: 4 Phòng ngủ Master + Phòng thờ",
+        materials: "Gỗ Óc chó Bắc Mỹ hạng 1, Đá Marble Calacatta Ý tự nhiên, Hệ tủ Gỗ An Cường phủ Acrylic, Kim loại mạ PVD vàng Champagne",
+        images: [
+          "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=85",
+          "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=85",
+          "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85",
+          "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1200&q=85"
+        ],
+        desc: "Tọa lạc bên nhánh sông đào thơ mộng tại Vinhomes Riverside Hà Nội, The Zen Residence là tuyên ngôn của phong cách Modern Luxury. Không gian phòng khách thông tầng cao 6.8m ngập tràn ánh sáng tự nhiên kết hợp cùng nội thất gỗ Óc chó Bắc Mỹ trầm ấm.",
+        highlights: [
+          "Giải pháp mặt dựng kính Low-E 2 lớp cách âm, cản 95% tia UV hướng Tây",
+          "Đảo bếp đá cẩm thạch nguyên khối kết hợp hệ tủ bếp An Cường kịch trần",
+          "Hệ thống chiếu sáng thông minh Lutron điều chỉnh kịch bản theo cảm xúc",
+          "Thi công hoàn thiện trọn gói trong 7 tháng bởi đội ngũ HD DESIGN"
+        ]
+      },
+      {
+        id: 2,
+        title: "Biệt Thự Đảo Ecopark Grand - Tinh Thần Japandi Đương Đại",
+        category: "villa",
+        categoryLabel: "Biệt thự / Villa",
+        location: "Ecopark Grand - The Island, Hưng Yên",
+        area: "540 m² (3 tầng)",
+        style: "Japandi & Minimalist",
+        budget: "12.5 Tỷ VNĐ",
+        floorplan: "Tầng 1: Không gian mở Phòng khách - Trà đạo - Bến thuyền • Tầng 2: 3 Phòng ngủ Master nhìn ra mặt hồ • Tầng 3: Không gian Thiền & Onsen tại gia",
+        materials: "Gỗ Sồi trắng tự nhiên, Gỗ công nghiệp An Cường Laminate vân gỗ mộc, Đá Terrazzo, Sơn hiệu ứng đất sét Nhật Bản",
+        images: [
+          "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1200&q=85",
+          "https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=1200&q=85",
+          "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=85"
+        ],
+        desc: "Sự kết hợp hoàn mỹ giữa nét tối giản tinh tế của Nhật Bản và sự ấm áp Bắc Âu (Japandi). Mọi vách ngăn cứng nhắc đều được loại bỏ, nhường chỗ cho hệ cửa trượt gỗ và tầm nhìn 270 độ ôm trọn mặt nước Ecopark.",
+        highlights: [
+          "Bố trí khu tắm khoáng nóng Onsen riêng tư ngay tại tầng 3",
+          "Sử dụng 100% vật liệu tự nhiên không phát thải Formaldehyde",
+          "Hệ lam gỗ tự nhiên xoay lật linh hoạt điều tiết gió mặt hồ"
+        ]
+      },
+      {
+        id: 3,
+        title: "Sky Duplex Penthouse Ciputra - Biểu Tượng Art Deco",
+        category: "penthouse",
+        categoryLabel: "Penthouse & Duplex",
+        location: "Khu đô thị Ciputra, Tây Hồ, Hà Nội",
+        area: "380 m² (Thông tầng Duplex)",
+        style: "Art Deco & Modern Luxury",
+        budget: "9.2 Tỷ VNĐ",
+        floorplan: "Tầng dưới: Đại sảnh, Phòng khách thông tầng, Bếp ướt & Bếp khô, Phòng giải trí • Tầng trên: Phòng ngủ Tổng thống (Presidential Suite) 110m² + 2 Phòng ngủ con",
+        materials: "Đá Marble Đen Tia Chớp, Gỗ An Cường phủ Veneer nu gỗ, Đồng thau và Kim loại mạ PVD, Da bò Ý tự nhiên",
+        images: [
+          "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=85",
+          "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=85",
+          "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=85"
+        ],
+        desc: "Nằm trên tầng cao nhất với tầm nhìn thẳng ra Hồ Tây và cầu Nhật Tân, căn Duplex Penthouse được HD DESIGN khoác lên ngôn ngữ Art Deco đầy kiêu hãnh với những đường cong hình học và chi tiết kim loại mạ PVD tinh xảo.",
+        highlights: [
+          "Cầu thang xoắn ốc nghệ thuật uốn lượn ngay chính giữa thông tầng",
+          "Phòng thay đồ Walk-in Closet hệ cánh kính khung nhôm mạ đồng tích hợp đèn LED cảm biến",
+          "Cách âm tiêu chuẩn phòng thu cho toàn bộ các phòng ngủ"
+        ]
+      },
+      {
+        id: 4,
+        title: "La Maison Townhouse - Nhà Phố Tân Cổ Điển Thanh Lịch",
+        category: "townhouse",
+        categoryLabel: "Nhà phố / Townhouse",
+        location: "Vinhomes Gardenia, Mỹ Đình, Hà Nội",
+        area: "420 m² (5 tầng + Thang máy)",
+        style: "Neoclassical (Tân cổ điển)",
+        budget: "7.6 Tỷ VNĐ",
+        floorplan: "Tầng 1: Gara & Kinh doanh • Tầng 2: Khách - Bếp liên thông • Tầng 3-4: 4 Phòng ngủ khép kín • Tầng 5: Phòng thờ & Sân vườn BBQ",
+        materials: "Đá Marble Kem Hoàng Gia, Hệ phào chỉ PU cao cấp, Gỗ Sồi sơn Inchem 7 lớp kết hợp tủ Gỗ An Cường chống ẩm, Đèn chùm pha lê Tiệp Khắc",
+        images: [
+          "https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=1200&q=85",
+          "https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=1200&q=85",
+          "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=85"
+        ],
+        desc: "Giải bài toán nhà phố liền kề bằng việc tích hợp giếng trời kết hợp thang máy kính xuyên suốt 5 tầng. Phong cách Tân cổ điển (Neoclassical) được tiết chế nhẹ nhàng, sang trọng mà không hề nặng nề.",
+        highlights: [
+          "Thang máy vách kính khung thép mạ PVD vàng đồng lấy sáng cho toàn bộ lõi nhà",
+          "Tối ưu công năng kép: vừa ở tiện nghi vừa làm văn phòng đại diện tại tầng 1",
+          "Hệ thống cấp khí tươi âm trần lọc bụi mịn PM2.5"
+        ]
+      },
+      {
+        id: 5,
+        title: "Hạ Long Bay View Villa - Biệt Thự Nghỉ Dưỡng Đồi Cảnh Quan",
+        category: "villa",
+        categoryLabel: "Biệt thự / Villa",
+        location: "Bãi Cháy, TP. Hạ Long, Quảng Ninh",
+        area: "720 m² (3 tầng)",
+        style: "Modern Luxury & Tropical",
+        budget: "19.5 Tỷ VNĐ",
+        floorplan: "Tầng 1: Hồ bơi vô cực tràn viền nhìn ra Vịnh Hạ Long, Phòng khách - Bếp mở • Tầng 2-3: 5 Phòng ngủ Suite chuẩn khách sạn 5 sao",
+        materials: "Gỗ Teak ngoài trời chịu mặn, Gỗ Óc chó Bắc Mỹ, Đá tự nhiên Базальт và Đá Marble vân mây, Kính cường lực siêu trong khổ lớn",
+        images: [
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=1200&q=85",
+          "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=85",
+          "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=85"
+        ],
+        desc: "Nằm trên sườn đồi hướng thẳng ra kỳ quan Vịnh Hạ Long, công trình được thiết kế giật cấp theo địa hình tự nhiên. Toàn bộ vật liệu đều được tuyển chọn chuyên biệt để chống chịu khí hậu biển.",
+        highlights: [
+          "Hồ bơi vô cực diện tích 85m² vươn ra sườn đồi",
+          "Phụ kiện bản lề, ốc vít và kim loại mạ PVD Inox 316 chống ăn mòn muối biển",
+          "Hoàn thiện chìa khóa trao tay từ kiến trúc đến từng chiếc khăn trải giường"
+        ]
+      },
+      {
+        id: 6,
+        title: "HD Bespoke Lounge & Flagship Showroom",
+        category: "commercial",
+        categoryLabel: "Không gian Thương mại",
+        location: "Quận Ba Đình, Hà Nội",
+        area: "450 m² (2 tầng)",
+        style: "Minimalist & Art Deco",
+        budget: "6.8 Tỷ VNĐ",
+        floorplan: "Tầng 1: Khu trưng bày Vật liệu Gỗ An Cường - Đá Marble & Quầy Cafe Lounge • Tầng 2: Không gian làm việc Kiến trúc sư & Phòng họp VIP",
+        materials: "Bê tông mài nghệ thuật, Vách gỗ tiêu âm An Cường, Đá Marble Verde Guatemala xanh ngọc, Thép không gỉ mạ PVD",
+        images: [
+          "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=85",
+          "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=85",
+          "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=85"
+        ],
+        desc: "Không gian trải nghiệm thực tế dành cho khách hàng và đối tác của HD DESIGN tại Hà Nội. Nơi trưng bày hơn 500 mẫu bề mặt vật liệu gỗ, đá, da và hệ thống nhà thông minh.",
+        highlights: [
+          "Thiết kế chiếu sáng chuẩn bảo tàng với chỉ số hoàn màu CRI > 97",
+          "Phòng trải nghiệm thực tế ảo VR 360 độ giúp khách hàng đi dạo trong căn nhà tương lai",
+          "Không gian mở khuyến khích sự sáng tạo và kết nối"
+        ]
+      }
+    ];
+
+    let currentCategory = 'all';
+    let currentSearchQuery = '';
+    let activeProjectModal = null;
+    let activeModalImageIdx = 0;
+
+    // --- 2. HÀM RENDER DANH SÁCH DỰ ÁN ---
+    function renderProjects() {
+      const grid = document.getElementById('projectsGrid');
+      const filtered = PROJECTS.filter(p => {
+        const matchCat = currentCategory === 'all' || p.category === currentCategory;
+        const q = currentSearchQuery.toLowerCase().trim();
+        const matchSearch = !q ||
+          p.title.toLowerCase().includes(q) ||
+          p.location.toLowerCase().includes(q) ||
+          p.style.toLowerCase().includes(q) ||
+          p.materials.toLowerCase().includes(q);
+        return matchCat && matchSearch;
+      });
+
+      if (filtered.length === 0) {
+        grid.innerHTML = `
+          <div class="col-span-full py-16 text-center bg-stone-950 rounded border border-stone-800">
+            <p class="text-stone-400 text-sm">Không tìm thấy dự án phù hợp với từ khóa. Vui lòng thử bộ lọc khác.</p>
+          </div>
+        `;
+        return;
+      }
+
+      grid.innerHTML = filtered.map(p => `
+        <div onclick="openProjectModal(${p.id})" class="group cursor-pointer bg-stone-950 rounded border border-stone-800 hover:border-amber-600/70 transition-all duration-500 flex flex-col overflow-hidden shadow-lg">
+          <div class="relative h-72 overflow-hidden">
+            <img
+              src="${p.images[0]}"
+              alt="${p.title}"
+              onerror="this.src='https://placehold.co/800x600/1c1917/d97706?text=HD+DESIGN'"
+              class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-stone-950 via-transparent to-transparent opacity-85"></div>
+            <div class="absolute top-4 left-4 flex gap-2">
+              <span class="px-3 py-1 rounded bg-stone-950/85 backdrop-blur-md border border-white/15 text-amber-400 text-[11px] uppercase tracking-wider font-medium">
+                ${p.categoryLabel}
+              </span>
+            </div>
+            <div class="absolute bottom-3 left-4 right-4 flex items-center justify-between text-xs text-stone-300">
+              <span class="truncate pr-2">📍 ${p.location}</span>
+              <span class="px-2 py-0.5 rounded bg-amber-700/90 text-white text-[11px] font-medium whitespace-nowrap">${p.style}</span>
+            </div>
+          </div>
+
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="font-serif-luxury text-2xl font-semibold text-white group-hover:text-amber-400 transition-colors line-clamp-2">
+                ${p.title}
+              </h3>
+              <p class="text-xs text-stone-400 mt-2 line-clamp-2 leading-relaxed">
+                ${p.desc}
+              </p>
+            </div>
+
+            <div class="mt-6 pt-4 border-t border-stone-800/80 flex items-center justify-between text-xs">
+              <div>
+                <span class="text-stone-500 block">Quy mô</span>
+                <span class="text-stone-200 font-semibold">${p.area}</span>
+              </div>
+              <div>
+                <span class="text-stone-500 block">Mức đầu tư</span>
+                <span class="text-amber-400 font-semibold">${p.budget}</span>
+              </div>
+              <span class="text-amber-400 uppercase tracking-wider font-semibold group-hover:translate-x-1 transition-transform">
+                Xem hồ sơ →
+              </span>
+            </div>
+          </div>
+        </div>
+      `).join('');
+
+      if (window.lucide) lucide.createIcons();
+    }
+
+    function filterCategory(cat) {
+      currentCategory = cat;
+      document.querySelectorAll('.cat-btn').forEach(btn => {
+        if (btn.getAttribute('data-cat') === cat) {
+          btn.className = 'cat-btn px-4 py-2.5 rounded text-xs uppercase tracking-wider font-semibold transition-all border bg-amber-700 border-amber-700 text-white';
+        } else {
+          btn.className = 'cat-btn px-4 py-2.5 rounded text-xs uppercase tracking-wider font-semibold transition-all border bg-stone-800/70 border-stone-700 text-stone-300 hover:border-amber-500/60';
+        }
+      });
+      renderProjects();
+    }
+
+    function handleSearchProjects(val) {
+      currentSearchQuery = val;
+      renderProjects();
+    }
+
+    // --- 3. ĐIỀU KHIỂN MODAL CHI TIẾT DỰ ÁN ---
+    function openProjectModal(id) {
+      const p = PROJECTS.find(item => item.id === id);
+      if (!p) return;
+      activeProjectModal = p;
+      activeModalImageIdx = 0;
+
+      document.getElementById('modalBadge').textContent = `${p.categoryLabel} • ${p.style}`;
+      document.getElementById('modalTitle').textContent = p.title;
+      document.getElementById('modalDesc').textContent = p.desc;
+      document.getElementById('modalLocation').textContent = p.location;
+      document.getElementById('modalArea').textContent = p.area;
+      document.getElementById('modalStyle').textContent = p.style;
+      document.getElementById('modalFloorplan').textContent = p.floorplan;
+      document.getElementById('modalMaterials').textContent = p.materials;
+      document.getElementById('modalBudget').textContent = p.budget;
+
+      document.getElementById('modalHighlights').innerHTML = p.highlights.map(h => `
+        <li class="flex items-start gap-2">
+          <span class="text-amber-400 font-bold">✓</span>
+          <span>${h}</span>
+        </li>
+      `).join('');
+
+      updateModalGalleryView();
+      document.getElementById('projectModal').classList.remove('hidden');
+      document.body.style.overflow = 'hidden';
+      if (window.lucide) lucide.createIcons();
+    }
+
+    function updateModalGalleryView() {
+      if (!activeProjectModal) return;
+      const imgs = activeProjectModal.images;
+      document.getElementById('modalMainImg').src = imgs[activeModalImageIdx];
+      document.getElementById('modalImgCounter').textContent = `Ảnh ${activeModalImageIdx + 1} / ${imgs.length}`;
+
+      document.getElementById('modalThumbnails').innerHTML = imgs.map((url, idx) => `
+        <button onclick="selectModalImg(${idx})" class="h-16 w-24 rounded overflow-hidden border-2 flex-shrink-0 transition-all ${idx === activeModalImageIdx ? 'border-amber-500 scale-105' : 'border-transparent opacity-60 hover:opacity-100'}">
+          <img src="${url}" class="w-full h-full object-cover" />
+        </button>
+      `).join('');
+    }
+
+    function selectModalImg(idx) {
+      activeModalImageIdx = idx;
+      updateModalGalleryView();
+    }
+
+    function prevModalImg() {
+      if (!activeProjectModal) return;
+      const len = activeProjectModal.images.length;
+      activeModalImageIdx = (activeModalImageIdx - 1 + len) % len;
+      updateModalGalleryView();
+    }
+
+    function nextModalImg() {
+      if (!activeProjectModal) return;
+      const len = activeProjectModal.images.length;
+      activeModalImageIdx = (activeModalImageIdx + 1) % len;
+      updateModalGalleryView();
+    }
+
+    function closeProjectModal() {
+      document.getElementById('projectModal').classList.add('hidden');
+      document.body.style.overflow = 'auto';
+    }
+
+    function requestThisProjectSample() {
+      if (!activeProjectModal) return;
+      const p = activeProjectModal;
+      closeProjectModal();
+      document.getElementById('formType').value = p.categoryLabel;
+      document.getElementById('formBudget').value = p.budget;
+      document.getElementById('formMessage').value = `Tôi quan tâm tới mẫu dự án "${p.title}" (${p.style}, quy mô ${p.area}). Nhờ KTS tư vấn phương án tương tự cho gia đình tôi.`;
+      document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+      showToast('Đã điền sẵn mẫu dự án vào Form đăng ký tư vấn!');
+    }
+
+    // --- 4. LOGIC CÔNG CỤ TÍNH DỰ TOÁN CHI PHÍ THỜI GIAN THỰC ---
+    let calcState = {
+      type: 'villa',           // villa, townhouse, penthouse, office
+      style: 'modern_luxury',  // minimalist, modern_luxury, art_deco, neoclassical
+      area: 160,
+      floors: 3,
+      pkg: 'turnkey'           // design_only, rough_finish, turnkey
+    };
+
+    function setCalcType(val) {
+      calcState.type = val;
+      if (val === 'penthouse' && calcState.floors > 2) {
+        calcState.floors = 1;
+        document.getElementById('floorsSlider').value = 1;
+      }
+      document.querySelectorAll('.calc-type-btn').forEach(btn => {
+        const active = btn.getAttribute('data-val') === val;
+        btn.className = `calc-type-btn p-3.5 rounded border text-left transition-all ${active ? 'bg-amber-700/20 border-amber-500 text-white' : 'bg-stone-900 border-stone-800 text-stone-400 hover:border-stone-700'}`;
+      });
+      updateCalculator();
+    }
+
+    function setCalcStyle(val) {
+      calcState.style = val;
+      document.querySelectorAll('.calc-style-btn').forEach(btn => {
+        const active = btn.getAttribute('data-val') === val;
+        btn.className = `calc-style-btn p-3 rounded border text-left transition-all ${active ? 'bg-amber-700/20 border-amber-500 text-white' : 'bg-stone-900 border-stone-800 text-stone-400 hover:border-stone-700'}`;
+      });
+      updateCalculator();
+    }
+
+    function setCalcPackage(val) {
+      calcState.pkg = val;
+      document.querySelectorAll('.calc-pkg-btn').forEach(btn => {
+        const active = btn.getAttribute('data-val') === val;
+        btn.className = `calc-pkg-btn p-4 rounded border text-left transition-all ${active ? 'bg-amber-700/20 border-amber-500 text-white' : 'bg-stone-900 border-stone-800 text-stone-400 hover:border-stone-700'}`;
+      });
+      updateCalculator();
+    }
+
+    function formatCurrencyVND(num) {
+      return new Intl.NumberFormat('vi-VN').format(Math.round(num / 100000) * 100000) + ' VNĐ';
+    }
+
+    function formatShortBillion(num) {
+      if (num >= 1000000000) {
+        return (num / 1000000000).toFixed(2) + ' Tỷ VNĐ';
+      }
+      return formatCurrencyVND(num);
+    }
+
+    function updateCalculator() {
+      calcState.area = Number(document.getElementById('areaSlider').value);
+      calcState.floors = Number(document.getElementById('floorsSlider').value);
+
+      document.getElementById('areaValueLabel').textContent = `${calcState.area} m²`;
+      document.getElementById('floorsValueLabel').textContent = `${calcState.floors} Tầng`;
+
+      const totalFloorArea = calcState.area * calcState.floors;
+
+      // Đơn giá thiết kế cơ bản (VNĐ/m2)
+      const baseDesignRates = {
+        villa: 350000,
+        townhouse: 280000,
+        penthouse: 320000,
+        office: 260000
+      };
+
+      // Hệ số theo phong cách thiết kế
+      const styleFactors = {
+        minimalist: 0.95,
+        modern_luxury: 1.15,
+        art_deco: 1.2,
+        neoclassical: 1.25
+      };
+
+      const styleFactor = styleFactors[calcState.style] || 1.0;
+      const designCost = Math.round(totalFloorArea * baseDesignRates[calcState.type] * styleFactor);
+
+      // Đơn giá phần thô (VNĐ/m2)
+      const roughRates = {
+        villa: 4800000,
+        townhouse: 4300000,
+        penthouse: 1800000, // cải tạo phần thô căn hộ
+        office: 3600000
+      };
+      const roughCost = calcState.pkg === 'design_only' ? 0 : Math.round(totalFloorArea * roughRates[calcState.type]);
+
+      // Đơn giá hoàn thiện & Nội thất (VNĐ/m2)
+      const interiorRates = {
+        villa: 8200000,
+        townhouse: 6800000,
+        penthouse: 7800000,
+        office: 5500000
+      };
+      const interiorCost = calcState.pkg === 'turnkey'
+        ? Math.round(totalFloorArea * interiorRates[calcState.type] * styleFactor)
+        : 0;
+
+      // Ưu đãi giảm phí thiết kế
+      let discount = 0;
+      if (calcState.pkg === 'turnkey') discount = designCost;
+      if (calcState.pkg === 'rough_finish') discount = Math.round(designCost * 0.5);
+
+      const grandTotal = designCost - discount + roughCost + interiorCost;
+
+      // Hiển thị lên UI
+      document.getElementById('outTotalArea').textContent = `${totalFloorArea} m²`;
+      document.getElementById('outDesignCost').textContent = formatCurrencyVND(designCost);
+      document.getElementById('outDiscountCost').textContent = `- ${formatCurrencyVND(discount)}`;
+      document.getElementById('outRoughCost').textContent = formatCurrencyVND(roughCost);
+      document.getElementById('outInteriorCost').textContent = formatCurrencyVND(interiorCost);
+      document.getElementById('outGrandTotal').textContent = formatShortBillion(grandTotal);
+
+      document.getElementById('rowDiscount').style.display = discount > 0 ? 'flex' : 'none';
+      document.getElementById('rowRough').style.display = calcState.pkg === 'design_only' ? 'none' : 'flex';
+      document.getElementById('rowInterior').style.display = calcState.pkg === 'turnkey' ? 'flex' : 'none';
+    }
+
+    function sendEstimateToForm() {
+      const totalArea = calcState.area * calcState.floors;
+      const totalText = document.getElementById('outGrandTotal').textContent;
+      const typeNames = {
+        villa: 'Biệt thự / Villa',
+        townhouse: 'Nhà phố / Townhouse',
+        penthouse: 'Penthouse & Duplex',
+        office: 'Không gian Thương mại / Văn phòng'
+      };
+      const styleNames = {
+        minimalist: 'Minimalist / Japandi',
+        modern_luxury: 'Modern Luxury',
+        art_deco: 'Art Deco',
+        neoclassical: 'Neoclassical (Tân cổ điển)'
+      };
+
+      document.getElementById('formType').value = typeNames[calcState.type];
+      document.getElementById('formBudget').value = totalText;
+      document.getElementById('formMessage').value = `Tôi vừa tính dự toán trên web HD DESIGN: Công trình ${typeNames[calcState.type]}, phong cách ${styleNames[calcState.style]}, tổng diện tích sàn ${totalArea}m² (${calcState.floors} tầng), ngân sách tạm tính ${totalText}. Nhờ KTS gửi báo giá chi tiết.`;
+      document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+      showToast('Đã chuyển thông số dự toán xuống Form đặt lịch hẹn!');
+    }
+
+    // --- 5. XỬ LÝ ĐẶT LỊCH HẸN & TOAST ---
+    function handleBookingSubmit(e) {
+      e.preventDefault();
+      const name = document.getElementById('formName').value.trim();
+      const phone = document.getElementById('formPhone').value.trim();
+      const type = document.getElementById('formType').value;
+
+      showToast(`Cảm ơn ${name}! KTS Trưởng HD DESIGN sẽ liên hệ số ${phone} trong 30 phút để tư vấn dự án ${type}.`);
+      document.getElementById('bookingForm').reset();
+    }
+
+    function showToast(message) {
+      const box = document.getElementById('toastBox');
+      document.getElementById('toastText').textContent = message;
+      box.classList.remove('hidden');
+      clearTimeout(window._toastTimer);
+      window._toastTimer = setTimeout(() => {
+        box.classList.add('hidden');
+      }, 4500);
+    }
+
+    function toggleMobileMenu() {
+      const menu = document.getElementById('mobileMenu');
+      menu.classList.toggle('hidden');
+    }
+
+    // --- 6. TÍNH NĂNG ĐẶC BIỆT: TẢI FILE INDEX.HTML ĐỘC LẬP & HƯỚNG DẪN HOSTING FREE ---
+    function openDeployModal() {
+      document.getElementById('deployModal').classList.remove('hidden');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeDeployModal() {
+      document.getElementById('deployModal').classList.add('hidden');
+      document.body.style.overflow = 'auto';
+    }
+
+    function downloadStandaloneHTML() {
+      const htmlContent = '<!DOCTYPE html>\n' + document.documentElement.outerHTML;
+      const blob = new Blob([htmlContent], { type: 'text/html;charset=utf-8' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'index.html';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+      showToast('Đã tải file index.html! Hãy kéo thả file này vào app.netlify.com/drop để lấy link miễn phí.');
+    }
+
+    // Khởi chạy khi tải trang
+    window.addEventListener('DOMContentLoaded', () => {
+      renderProjects();
+      updateCalculator();
+      if (window.lucide) lucide.createIcons();
+    });
+  </script>
+</body>
+</html>
